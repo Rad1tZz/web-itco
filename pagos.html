@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasarela de Pagos</title>
+    <link rel="stylesheet" href="css/stylos.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Ingresa tus datos de pago</h1>
+        <form class="payment-form">
+            <div class="form-group">
+                <label for="cardholder-name">Nombre en la tarjeta</label>
+                <input type="text" id="cardholder-name" name="cardholder-name" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Número de tarjeta</label>
+                <input type="text" id="card-number" name="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="expiry-date">Fecha de vencimiento</label>
+                <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">Código de seguridad (CVV)</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+            <div class="payment-options">
+                <div class="payment-option">
+                    <i class="fas fa-credit-card"></i>
+                    <button type="submit">Pagar</button>
+                </div>
+                <div class="payment-option">
+                    <i class="fab fa-paypal"></i>
+                    <button type="submit">PayPal</button>
+                </div>
+
+            </div>
+        </form>
+        <a href="index.html" target="_self" class="home-button">Volver a la página de inicio</a>
+    </div>
+
+</body>
+</html>

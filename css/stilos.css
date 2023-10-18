@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'moto sans', sans-serif;
+}
+
+body{
+    background: url(../css/img/tt2.jpg) no-repeat center/cover;
+    font-family: 'open sans',sans-serif;
+}
+
+#de-regreso {
+    background-size: cover;
+    background-image : url(../css/img/ab.jpg);
+    background-attachment: fixed;
+    height: 10vh;
+    color: white;
+}
+#barra-navegacionn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+nav>a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+nav>a:hover {
+    color: rgb(0, 153, 255);
+}
+
+#de-regreso-contenido {
+    text-transform: capitalize;
+    font-family: 'montaserrat',sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+#de-regreso-contenido>hr {
+    width: 95rem;
+    border-color: #2986de;
+}
+
+.contenedor{
+    width: 90%;
+    max-width:900px;
+    margin: auto;
+    height:83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tabla{
+    background: transparent;
+    width: 30%;
+    height: 550px;
+    margin: 0 08px;
+    border: 1px solid #47afec;
+    border-radius: 4px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 4px 0px  #343759;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color: #ffffff;
+}
+
+.tabla>h2{
+    font-size:25px;
+    margin-bottom:35px;
+}
+
+.tabla img{
+    width: 64px;
+    margin-bottom:35px;
+}
+
+.tabla > h3{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+.tabla > p{
+    display: block;
+    margin-bottom:20px;
+}
+
+.boton{
+    display:inline-block;
+    width: 150px;
+    padding:12px;
+    background: linear-gradient(
+        90deg,
+        rgb(30, 167, 241) 0%,
+        rgba(37,118,250,1) 100%
+        );    
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.tabla:hover{
+    background: linear-gradient(
+        90deg,
+        rgb(37,118,250,1) 0%,
+        rgba(30, 167, 241) 100%
+        );
+    color: #f1f1f2;
+    transition: .5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .tabla{
+        width: 45%;
+        max-width:none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .tabla{
+        width: 45%;
+        padding:30px;
+    }
+    .tabla > h2{
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .tabla{
+        width: 85%;
+        padding: 20px;
+    }
+}
+
+footer{
+    font-family: 'montserrat',sans-serif;
+    background-color: black;
+    color: white;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: url(../css/img/lol.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.payment-container {
+    background: transparent;
+    max-width: 400px;
+    padding: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #605e5e;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.payment-form {
+    text-align: left;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.payment-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-option i {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.payment-option:nth-child(2) button {
+    background-color: #0070ba;
+}
+
+.payment-option:nth-child(2) button:hover {
+    background-color: #005497;
+}
+
+.payment-option button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-option button:hover {
+    background-color: #0056b3;
+}
+
+
+.payment-option button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-option button:hover {
+    background-color: #0056b3;
+}
+
+.home-button {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #ff1a35;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #1fba17;
+}
