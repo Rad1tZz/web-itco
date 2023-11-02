@@ -31,6 +31,16 @@ body{
     color: black;
 }
 
+p.frase a{
+    text-decoration: none;
+    color: #000000;
+}
+
+p.frase a:hover{
+    color: rgb(0, 153, 255);
+}
+
+
 /*terminaa reutilisables*/
 
 /*1ra seccion*/
