@@ -28,7 +28,7 @@ body{
 .btn-celeste:hover{
     background: linear-gradient(
         90deg,
-        rgb(37, 119, 250) 0%,
+        rgb(3, 94, 239) 0%,
         rgb(37, 172, 250) 100%
         );
 }
