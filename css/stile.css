@@ -25,6 +25,14 @@ body{
     align-self: center;
 }
 
+.btn-celeste:hover{
+    background: linear-gradient(
+        90deg,
+        rgb(9, 128, 192) 0%,
+        rgb(37, 165, 250)100%
+        );
+}
+
 .frase {
     font-weight: bold;
     text-align: center;
