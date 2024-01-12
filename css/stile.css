@@ -24,6 +24,7 @@ body{
     padding: 1rem 2rem;
     display: inline-block;
     align-self: center;
+    box-shadow: 0 3px 10px -5px #000000;
 }
 
 .btn-celeste:hover{
