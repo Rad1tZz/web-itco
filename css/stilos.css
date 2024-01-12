@@ -20,7 +20,7 @@ body{
 #barra-navegacionn{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: auto 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;

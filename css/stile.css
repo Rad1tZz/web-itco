@@ -267,3 +267,19 @@ footer{
     flex-direction: column;
     text-align: center;
 }
+
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header{
+        background-size: cover;
+        background-image : url(../css/img/ab.jpg);
+        background-attachment: fixed;
+        height: 10vh;
+    }
+
+}
