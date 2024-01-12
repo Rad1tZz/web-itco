@@ -15,6 +15,7 @@ body{
     font-family: 'montserrat',sans-serif;
     text-transform: uppercase;
     font-weight: 700;
+    border-radius: 100px;
     background: linear-gradient(
         90deg,
         rgb(37, 175, 250) 0%,
@@ -26,12 +27,13 @@ body{
 }
 
 .btn-celeste:hover{
-    background: linear-gradient(
-        90deg,
-        rgb(3, 94, 239) 0%,
-        rgb(37, 172, 250) 100%
-        );
-}
+        background: linear-gradient(
+            90deg,
+            rgb(30, 241, 227) 0%,
+            rgb(37, 175, 250) 100%
+            );    
+    }
+
 
 .frase {
     font-weight: bold;
@@ -266,4 +268,20 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header{
+        background-size: cover;
+        background-image : url(../css/img/ab.jpg);
+        background-attachment: fixed;
+        height: 10vh;
+    }
+
 }

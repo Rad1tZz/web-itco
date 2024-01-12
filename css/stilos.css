@@ -20,7 +20,7 @@ body{
 #barra-navegacionn{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: auto 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -73,6 +73,7 @@ nav>a:hover {
     text-align: center;
     flex-grow: 1;
     color: #ffffff;
+
 }
 
 .tabla>h2{
@@ -111,6 +112,16 @@ nav>a:hover {
     font-size: 14px;
     font-weight: 600;
     margin: auto;
+    box-shadow: 0 3px 10px -5px #000000;
+
+}
+
+.boton:hover{
+    background: linear-gradient(
+        90deg,
+        rgb(55, 241, 30) 0%,
+        rgb(37, 250, 222) 100%
+        );    
 }
 
 .tabla:hover{
